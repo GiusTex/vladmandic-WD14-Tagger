@@ -8,6 +8,7 @@ I didn't make any models, and most of the code was heavily borrowed from the [De
 Regarding this extension, it's a copy of [toriato](https://github.com/toriato/stable-diffusion-webui-wd14-tagger)'one, I changed 3 files to make it work in vladmandic webui; if you had errors ecc in toriato's extension, they will be there too. You also can't change interrogator model from within the webui for now, you have to do things manually, instructions [here](changing-model.md).
 
 ## Installation
+You can choose one the following ways:
 1. New, clean installation:
    - go to *Extensions* -> *Manual install* -> Enter URL of this repository -> Press *Install* button. When you see `Extension installed: YourPath | Restart required`, close the command console and run again it.
    - or clone this repository under `extensions/`
