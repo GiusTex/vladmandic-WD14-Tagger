@@ -20,7 +20,7 @@ Regarding this extension, it's a copy of [toriato](https://github.com/toriato/st
    - close the command console and run again it.
 
 ## Model comparison and changing model
-You can read how to change tagger model [here](changing-model.md).
+The [default model](https://huggingface.co/SmilingWolf/wd-v1-4-vit-tagger-v2/tree/main) is downloaded automatically, but if you want to change it, you can read how [here](changing-model.md).
 
 [Model comparison](docs/model-comparison.md)
 
