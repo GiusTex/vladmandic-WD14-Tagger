@@ -5,6 +5,8 @@ Interrogate booru style tags for single or multiple image files using various mo
 ## Disclaimer
 I didn't make any models, and most of the code was heavily borrowed from the [DeepDanbooru](https://github.com/KichangKim/DeepDanbooru) and MrSmillingWolf's tagger.
 
+Regarding this extension, it's a copy of [toriato](https://github.com/toriato/stable-diffusion-webui-wd14-tagger)'one, I changed 3 files to make it work in vladmandic webui; if you had errors ecc in toriato's extension, they will be there too.
+
 ## Installation
 1. New, clean installation:
    - go to *Extensions* -> *Install from URL* -> Enter URL of this repository -> Press *Install* button. When you see it's been installed, close the command console and run again it.
