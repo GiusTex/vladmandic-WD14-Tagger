@@ -16,7 +16,7 @@ Regarding this extension, it's a copy of [toriato](https://github.com/toriato/st
       ```
 2. Fix already installed automatic1111-wd14-tagger extension:
    - move the extension from `automatic1111>extensions>stable-diffusion-webui-wd14-tagger` to `VladDiffusion>extensions`, and rename it "vladmandic-WD14-Tagger".
-   - delete `vladmandic-WD14-Tagger>preload.py` and change it with the `preload.py` from my repo, delete `vladmandic-WD14-Tagger>tagger>utils.py` and `ui.py`, and change them with `utils.py` and `ui.py` from my repo.
+   - delete `vladmandic-WD14-Tagger>preload.py` and change it with the [preload.py](https://github.com/GiusTex/vladmandic-WD14-Tagger/blob/main/preload.py) from my repo, delete `vladmandic-WD14-Tagger>tagger>utils.py` and `ui.py`, and change them with [utils.py](https://github.com/GiusTex/vladmandic-WD14-Tagger/blob/main/tagger/utils.py) and [ui.py](https://github.com/GiusTex/vladmandic-WD14-Tagger/blob/main/tagger/ui.py) from my repo.
    - close the command console and run again it.
 
 ## Model comparison
