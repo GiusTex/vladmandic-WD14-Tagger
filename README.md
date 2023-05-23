@@ -17,9 +17,6 @@ I didn't make any models, and most of the code was heavily borrowed from the [De
    - delete vladmandic-wd14-tagger>preload.py and change it with the preload.py from my repo, delete vladmandic-wd14-tagger>tagger>utils.py and ui.py, and change them with utils.py and ui.py from my repo.
 
 3. *(optional)* Add interrogate model
-   - #### [*Waifu Diffusion 1.4 Tagger by MrSmilingWolf*](docs/what-is-wd14-tagger.md)
-      Downloads automatically from the [HuggingFace repository](https://huggingface.co/SmilingWolf/wd-v1-4-vit-tagger) the first time you run it.
-
    - #### *DeepDanbooru*
       1. Various model files can be found below.
          - [DeepDanbooru models](https://github.com/KichangKim/DeepDanbooru/releases)
