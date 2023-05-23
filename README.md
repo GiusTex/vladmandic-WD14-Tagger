@@ -12,7 +12,7 @@ Regarding this extension, it's a copy of [toriato](https://github.com/toriato/st
    - go to *Extensions* -> *Install from URL* -> Enter URL of this repository -> Press *Install* button. When you see it's been installed, close the command console and run again it.
    - or clone this repository under `extensions/`
       ```sh
-      git clone https://github.com/GiusTex/vladmandic-WD14-Tagger.git extensions/vladmandic-wd14-tagger
+      git clone https://github.com/GiusTex/vladmandic-WD14-Tagger.git extensions/vladmandic-WD14-Tagger
       ```
 2. Fix already installed automatic1111-wd14-tagger extension:
    - move the extension from `automatic1111>extensions>stable-diffusion-webui-wd14-tagger` to `VladDiffusion>extensions`, and rename it "vladmandic-WD14-Tagger".
