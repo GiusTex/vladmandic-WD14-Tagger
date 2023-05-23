@@ -19,7 +19,9 @@ Regarding this extension, it's a copy of [toriato](https://github.com/toriato/st
    - delete `stable-diffusion-webui-wd14-tagger>preload.py` and change it with the [preload.py](https://github.com/GiusTex/vladmandic-WD14-Tagger/blob/main/preload.py) from my repo, delete `stable-diffusion-webui-wd14-tagger>tagger>utils.py` and `ui.py`, and change them with [utils.py](https://github.com/GiusTex/vladmandic-WD14-Tagger/blob/main/tagger/utils.py) and [ui.py](https://github.com/GiusTex/vladmandic-WD14-Tagger/blob/main/tagger/ui.py) from my repo.
    - close the command console and run again it.
 
-## Model comparison
+## Model comparison and changing model
+You can read how to change tagger model [here](changing-model.md).
+
 [Model comparison](docs/model-comparison.md)
 
 ## Screenshot
