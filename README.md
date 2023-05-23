@@ -9,7 +9,7 @@ Regarding this extension, it's a copy of [toriato](https://github.com/toriato/st
 
 ## Installation
 1. New, clean installation:
-   - go to *Extensions* -> *Install from URL* -> Enter URL of this repository -> Press *Install* button. When you see it's been installed, close the command console and run again it.
+   - go to *Extensions* -> *Manual install* -> Enter URL of this repository -> Press *Install* button. When you see it's been installed, close the command console and run again it.
    - or clone this repository under `extensions/`
       ```sh
       git clone https://github.com/GiusTex/vladmandic-WD14-Tagger.git extensions/vladmandic-WD14-Tagger
