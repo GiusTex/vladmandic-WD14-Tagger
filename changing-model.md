@@ -24,8 +24,8 @@ You can find some tagger models [here](https://huggingface.co/models?sort=downlo
    - change the default model path inside `VladDiffusion\extensions\vladmandic-WD14-Tagger\preload.py` at line 6, and inside `VladDiffusion\extensions\vladmandic-WD14-Tagger\tagger\utils.py` at line 66 with your 
      desired path model.
   #### Thing to remember:
-    > For now you can't change the model from within the webui, otherwise every time you select "Interrogate" the script will download the model, since the model path isn't updated. We have to change the 
-     default model manually, as explained above.
+    > For now you can't change the model from within the webui (we use it just to download the model), otherwise every time you select "Interrogate" the script will download the model, since the model path isn't 
+     updated. We have to change the default model manually, as explained above.
   
 - #### *DeepDanbooru tagger*
  1. Various model files can be found below.
