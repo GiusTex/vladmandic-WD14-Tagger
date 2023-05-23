@@ -2,19 +2,21 @@ Tagger for [Automatic1111's WebUI](https://github.com/AUTOMATIC1111/stable-diffu
 ---
 Interrogate booru style tags for single or multiple image files using various models, such as DeepDanbooru.
 
-[한국어를 사용하시나요? 여기에 한국어 설명서가 있습니다!](README.ko.md)
-
 ## Disclaimer
 I didn't make any models, and most of the code was heavily borrowed from the [DeepDanbooru](https://github.com/KichangKim/DeepDanbooru) and MrSmillingWolf's tagger.
 
 ## Installation
-1. *Extensions* -> *Install from URL* -> Enter URL of this repository -> Press *Install* button
+1. New, clean installation:
+   - go to *Extensions* -> *Install from URL* -> Enter URL of this repository -> Press *Install* button. When you see it's been installed, close the command console and run again it.
    - or clone this repository under `extensions/`
       ```sh
-      $ git clone https://github.com/toriato/stable-diffusion-webui-wd14-tagger.git extensions/tagger
+      $ git clone https://github.com/GiusTex/vladmandic-WD14-Tagger.git extensions/vladmandic-WD14-Tagger
       ```
+2. Fix already installed automatic1111-wd14-tagger extension:
+   - move the extension from automatic1111>extensions folder to VladDiffusion>extensions folder.
+   - delete vladmandic-wd14-tagger>preload.py and change it with the preload.py from my repo, delete vladmandic-wd14-tagger>tagger>utils.py and ui.py, and change them with utils.py and ui.py from my repo.
 
-1. *(optional)* Add interrogate model
+3. *(optional)* Add interrogate model
    - #### [*Waifu Diffusion 1.4 Tagger by MrSmilingWolf*](docs/what-is-wd14-tagger.md)
       Downloads automatically from the [HuggingFace repository](https://huggingface.co/SmilingWolf/wd-v1-4-vit-tagger) the first time you run it.
 
